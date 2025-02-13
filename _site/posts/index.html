@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> - VIETREST</title>
+    <title>글 목록 - VIETREST</title>
     <link rel="stylesheet" href="/my-blog/assets/css/styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -13,21 +13,19 @@
             <nav>
                 <a href="/my-blog/" class="site-title">VIETREST</a>
                 <ul class="site-nav">
-                    <li><a href="/my-blog/" class="active"><span class="material-icons">home</span> 홈</a></li>
+                    <li><a href="/my-blog/" ><span class="material-icons">home</span> 홈</a></li>
                     <li><a href="/my-blog/about/" ><span class="material-icons">info</span> 소개</a></li>
-                    <li><a href="/my-blog/posts/" ><span class="material-icons">article</span> 글</a></li>
+                    <li><a href="/my-blog/posts/" class="active"><span class="material-icons">article</span> 글</a></li>
                 </ul>
             </nav>
         </header>
 
         <main class="page-content">
-            <header class="main-header">
-  <h1>VIETREST</h1>
-  <p class="main-description">베트남 여행의 모든 것 - 맛집, 관광지, 숙소 정보를 한눈에 확인하세요. 현지인처럼 즐기는 진정한 베트남 여행의 시작, VIETREST와 함께하세요.</p>
-</header>
+            <div class="posts-page">
+  <header class="posts-header">
+    <h1 class="posts-title">전체 글 목록</h1>
+  </header>
 
-<section class="recent-posts">
-  <h2>최근 게시물</h2>
   <div class="post-list"><article class="post-item">
       <a href="/my-blog/jekyll/update/2025/02/13/welcome-to-jekyll.html" class="post-link">
         <div class="post-header">
@@ -66,9 +64,7 @@
         </div>
       </a>
     </article></div>
-  
-  
-</section> 
+</div> 
         </main>
 
         <footer class="site-footer">
